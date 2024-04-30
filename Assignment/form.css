@@ -1,0 +1,197 @@
+
+@charset "utf-8";
+
+body.page{
+  box-sizing: border-box;
+  margin: 0;
+  color: #2a2c32;
+  font-family: Open-Sans,sans-serif;
+  font-size: 1.4em;
+  line-height: 1.6;
+  background: no-repeat 50% fixed;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+  padding: 10px;
+  background-image: url("background.jpg");
+}
+.form-wrap{
+  color: #083cd9;
+  font-family: Open-Sans,sans-serif;
+  font-size: 1.4em;
+  line-height: 1.6;
+  box-sizing: border-box;
+  margin-top: 0;
+  position: relative;
+  transform: translateY(0);
+  transition: transform .4s,-webkit-transform .4s;
+  transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+}
+div.logo{
+  text-align: center;
+}
+
+fieldset{
+  color: #2a2c32;
+  font-family: Open-Sans,sans-serif;
+  font-size: 1.4em;
+  line-height: 1.6;
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding:0;
+  padding-left: 40px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+form{
+  color: #f3f4f7;
+  font-family: Open-Sans,sans-serif;
+  font-size: 1.4em;
+  line-height: 1.6;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #eae9e4;
+  padding: 1.5rem;
+}
+
+input{
+  height: 50px;
+  margin: 0;
+  line-height: normal;
+  background-color: #ffffff;
+  border-radius: 0;
+  box-sizing: border-box;
+  font-family: Open-Sans,sans-serif;
+  appearance: none;
+  border: 1px solid #d0d2d8;
+  display: block;
+  font-weight: 400;
+  max-width: 100%;
+  transition: border .15s;
+  width: 350px;
+  padding: 1.5rem;
+  margin-bottom: 0;
+  margin-top: 3px;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  
+}
+div.form-element{
+  color: #f9fbff;
+  font-family: Open-Sans,sans-serif;
+  font-size: 1.4em;
+  line-height: 1.6;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  text-align: center;
+}
+.btn{
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  position: relative;
+  background: transparent;
+  margin-top: 1.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 35%;
+  font-weight: 600;
+  padding: .75rem 2rem;
+  text-transform: uppercase;
+  transition: background-color .3s cubic-bezier(.22,.61,.35,1),opacity .15s ease,box-shadow .8s cubic-bezier(.23,1.25,.46,1);
+  background-color: #1684de;
+  border-color: transparent;
+  color: #fff;
+}
+.login{
+  color: #fef9f6;
+  font-family: Open-Sans,sans-serif;
+  font-size: 90%;
+  line-height: 1.6;
+  box-sizing: border-box;
+  text-align: center;
+}
+div.register{
+  color: #fcf9f7;
+  font-family: Open-Sans,sans-serif;
+  font-size: 90%;
+  line-height: 1.6;
+  box-sizing: border-box;
+  text-align: center;
+}
+span.link-value{
+  font-family: Open-Sans,sans-serif;
+  line-height: 1.6;
+  color: #fefefe;
+  font-size: 85%;
+  list-style-type: none;
+  box-sizing: border-box;
+  background-color: #de16db;
+}
+span.link_value{
+  font-family: Open-Sans,sans-serif;
+  line-height: 1.6;
+  color: #fefefe;
+  font-size: 100%;
+  list-style-type: none;
+  box-sizing: border-box;
+  background-color: #ed9c1b;
+}
+.link-btn{
+  box-sizing: border-box;
+  text-decoration: none;
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  position: relative;
+  background: transparent;
+  margin-top: 1.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 30%;
+  font-weight: 600;
+  padding: .75rem 2rem;
+  text-transform: uppercase;
+  border-color: transparent;
+}
+.link_btn{
+  box-sizing: border-box;
+  text-decoration: none;
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  position: relative;
+  background: transparent;
+  margin-top: 1.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 30%;
+  font-weight: 600;
+  padding: .75rem 2rem;
+  text-transform: uppercase;
+  border-color: transparent;
+}
+ h2{
+  font-size: 22px;
+  text-align: center;
+  padding-top:0;
+  color:#320be2
+ }
+ .error{
+  font-size: 14px;
+  color:red;
+  display: flex;
+}
+
+

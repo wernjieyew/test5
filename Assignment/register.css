@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+body.page{
+    box-sizing: border-box;
+    margin: 0;
+    color: #2a2c32;
+    font-family: Open-Sans,sans-serif;
+    font-size: 1.4em;
+    line-height: 1.6;
+    background: no-repeat 50% fixed;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    padding: 10px;
+    background-image: url("background.jpg");
+  
+  }
+.sign-wrap{
+    background-color: #f2f3f5;
+    text-align:center;
+    padding: 30px;
+    display:block;
+    margin: auto;
+    box-sizing:border-box;
+    margin-bottom: 6rem;
+    position: relative;
+}
+fieldset{
+    color: #2a2c32;
+    font-family: Open-Sans,sans-serif;
+    font-size: 1.4em;
+    line-height: 1.6;
+    box-sizing: border-box;
+    border: 0;
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+input{
+    height: 50px;
+    line-height: normal;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-family: Open-Sans,sans-serif;
+    border: 2px solid #d0d2d8;
+    display: block;
+    width: 300px;
+    margin-bottom: 5px;
+}
+div.form-element{
+    color: #2a2c32;
+    font-family: Open-Sans,sans-serif;
+    font-size: 1.4em;
+    line-height: 1.6;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    text-align: left;
+}
+.sign{
+    color: #2a2c32;
+    font-family: Open-Sans,sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    box-sizing: border-box;
+    text-align: center;
+}
+.button{
+    box-sizing: border-box;
+    font: inherit;
+    overflow: visible;
+    position:relative;
+    background: transparent;
+    margin-top: 1.5rem;
+    margin-left: 0;
+    border: 1px solid #d0d2d8;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 90%;
+    font-weight: 600;
+    padding: 10px 120px ;
+    text-transform: uppercase;
+    background-color: #4c84d7;
+    color: #fff;
+    text-align: center;
+}
+.error{
+    font-size: 10px;
+    color:red;
+    display: flex;
+}

@@ -1,0 +1,13 @@
+Event_id,studentID,Event_name,Event_type,studentname,gender,email,phone_no
+1009,2203113,Spring Singing Competition,Competition,LIEW ZHI ZHAO,M,zhizhaoliew@gmail.com,174016935
+1009,2203687,Spring Singing Competition,Competition,YEW WERN JIE,M,wernjieyew@gmail.com,174016934
+1010,2201301,Summer Singing Competition,Competition,YAP KOK XIANG,M,kokxiang318@gmail.com,174016936
+1010,2202555,Summer Singing Competition,Competition,CHING YEN HERN,M,yenhern@gmail.com,165352876
+1011,2203113,Music Workshop,Workshop,LIEW ZHI ZHAO,M,zhizhaoliew@gmail.com,174016935
+1011,2203687,Music Workshop,Workshop,YEW WERN JIE,M,wernjieyew@gmail.com,174016934
+1012,2201301,Piano Workshop,Workshop,YAP KOK XIANG,M,kokxiang318@gmail.com,174016936
+1012,2202555,Piano Workshop,Workshop,CHING YEN HERN,M,yenhern@gmail.com,165352876
+1013,2203113,Industry Talk,Talk,YEW WERN JIE,M,zhizhaoliew@gmail.com,174016935
+1013,2203687,Industry Talk,Talk,YEW WERN JIE,M,wernjieyew@gmail.com,174016934
+1014,2201301,Music Talk,Talk,YAP KOK XIANG,M,kokxiang318@gmail.com,174016936
+1014,2202555,Music Talk,Talk,CHING YEN HERN,M,yenhern@gmail.com,165352876

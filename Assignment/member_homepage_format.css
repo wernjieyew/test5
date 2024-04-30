@@ -1,0 +1,45 @@
+
+@charset 'utf-8';
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    z-index: 1;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+.swiper
+{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img
+{
+    width: 100%;
+}
+
+.swiper .swiper-button-next, .swiper .swiper-button-prev
+{
+    color: white;
+}
+
+.swiper .swiper-pagination-bullet-active
+{
+    background: white;
+}
+
+

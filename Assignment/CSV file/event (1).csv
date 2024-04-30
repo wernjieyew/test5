@@ -1,0 +1,7 @@
+Event_id,Event_name,Event_type,Venue,Event_date,Event_time,Contact_number,adminID
+1009,Spring Singing Competition,Competition,Dewan Utama,5/10/2023,20:00:00,174016934,admin01
+1010,Summer Singing Competition,Competition,DSA Hall,6/20/2023,18:00:00,174016934,admin01
+1011,Music Workshop,Workshop,EDK 2,7/11/2023,22:30:00,174016934,admin01
+1012,Piano Workshop,Workshop,FDK 2,10/23/2023,14:00:00,174016934,admin01
+1013,Industry Talk,Talk,CDK 1,5/4/2023,14:00:00,174016934,admin01
+1014,Music Talk,Talk,CDK 2,6/3/2023,16:00:00,174016934,admin01
