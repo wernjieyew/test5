@@ -1,8 +1,8 @@
 
 <?php // mysqli_connect.php
-DEFINE('DB_USER', 'root'); // root
-DEFINE('DB_PASSWORD', ''); // no password
-DEFINE('DB_HOST', 'localhost');
+DEFINE('DB_USER', 'testing'); // root
+DEFINE('DB_PASSWORD', 'database'); // no password
+DEFINE('DB_HOST', 'mydb.cve8wc6o4b25.us-east-1.rds.amazonaws.com');
 DEFINE('DB_NAME', 'assignment');
 // Make the connection:
 $dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD,
