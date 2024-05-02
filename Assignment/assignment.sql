@@ -36,9 +36,9 @@ CREATE TABLE `admin` (
 -- Dumping data for table `admin`
 --
 
-INSERT INTO `admin` (`AdminID`,`position`, `password`) VALUES
-('admin01','President', '7c222fb2927d828af22f592134e8932480637c0d'),
-('admin02','Vice President', 'a7d579ba76398070eae654c30ff153a4c273272a');
+INSERT INTO `admin` (`AdminID`, `password`) VALUES
+('admin01', '7c222fb2927d828af22f592134e8932480637c0d'),
+('admin02', 'a7d579ba76398070eae654c30ff153a4c273272a');
 
 -- --------------------------------------------------------
 
